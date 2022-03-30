@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-* { box-sizing: border-box; }
+* {box-sizing: border-box;}
 
 body { width: 100%; height: auto; font-weight: 400; font-size: 16px; margin: 0px; color: rgb(89, 111, 112); position: relative; font-family: "Microsoft JhengHei", Oswald, sans-serif, Arial, Helvetica; line-height: 1.8; }
 
