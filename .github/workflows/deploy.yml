@@ -10,6 +10,7 @@ jobs:
           node-version: '14'
       - name: Install dependencies
         run: npm install
+        working-directory: ./slidev
       - name: Build
         run: npm run build
         working-directory: ./slidev
@@ -19,3 +20,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
