@@ -12,18 +12,19 @@ highlighter: shiki
 lineNumbers: false
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  <img alt="Holtek" src="https://www.holtek.com.tw/documents/10179/5536389/LOGO-deepblue.png">
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Learn more at [holtek.com](https://www.holtek.com.cn/)
 # persist drawings in exports and build
 drawings:
   persist: false
 ---
 
-# Welcome to Slidev
 
-Presentation slides for developers
+
+# 🆕新産品建議
+
+主題：毫米波芯片
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -35,7 +36,7 @@ Presentation slides for developers
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
   </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
+  <a href="index.html" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -47,7 +48,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is Slidev?
+# 主題：毫米波芯片
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
@@ -81,9 +82,10 @@ h1 {
 }
 </style>
 
+
 ---
 
-# Navigation
+# 🔗 産品網址及影片
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
 
@@ -109,7 +111,7 @@ layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
-# Code
+# 📝 産品説明
 
 Use code snippets and get the highlighting directly![^1]
 
@@ -146,7 +148,7 @@ function updateUser(id: number, update: User) {
 
 ---
 
-# Components
+# 💹 市場潛力:
 
 <div grid="~ cols-2 gap-4">
 <div>
@@ -181,7 +183,7 @@ Check out [the guides](https://sli.dev/builtin/components.html) for more.
 class: px-20
 ---
 
-# Themes
+# ⚡ 盛群機會：
 
 Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
 
@@ -212,7 +214,7 @@ check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 preload: false
 ---
 
-# Animations
+# 🆚 競爭對手：
 
 Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
 
@@ -286,9 +288,24 @@ const final = {
 
 ---
 
-# LaTeX
+# 📋 相關標準：
 
 LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
+
+<table>
+    <tr>
+        <th>標準號</th>
+        <th>標準名</th>
+        <th>狀態</th>
+        <th>實施日期</th>
+    </tr>
+    <tr>
+        <th>GB/T 33577-2017</th>
+        <th><a href="./33577-2017.pdf" target="_blank">智能運輸係統 車輛前嚮碰撞預警係統 性能要求和測試規程</a></th>
+        <td>現行</td>
+        <td>2013-07-01</td>
+    </tr>
+</table>
 
 <br>
 
@@ -319,6 +336,7 @@ $$
 You can create diagrams / graphs from textual descriptions, directly in your Markdown.
 
 <div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
+
 
 ```mermaid {scale: 0.5}
 sequenceDiagram

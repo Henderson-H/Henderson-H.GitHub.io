@@ -6,9 +6,13 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.29.2",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@braintree/sanitize-url": "6.0.0",
+    "@slidev/cli": "0.29.2",
+    "@slidev/client": "0.29.2",
+    "@slidev/theme-default": "0.21.2",
+    "@slidev/theme-seriph": "0.21.2",
+    "mermaid": "8.14.0",
+    "theme-vitesse": "0.1.14"
   },
   "name": "slidev"
 }
